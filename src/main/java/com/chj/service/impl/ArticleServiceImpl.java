@@ -130,7 +130,7 @@ public class ArticleServiceImpl implements ArticleService {
             String combinedQuery = String.join(" ", data);
             float[] queryVector = generateEmbedding(combinedQuery, "");
             String vectorLiteral = floatArrayToVectorLiteral(queryVector);
-            List<ArticleVO> vectorResults = articleMapper.listArticleByVector(vectorLiteral, userId, 20);
+            List<ArticleVO> vectorResults = articleMapper.listArticleByVector(vectorLiteral, userId, 10);
 
             // 3. 合并结果：先 BM25 结果，再去重补充向量搜索的额外结果
             List<ArticleVO> merged = new ArrayList<>(bm25Results);

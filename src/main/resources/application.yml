@@ -56,8 +56,8 @@ siliconflow:
   models:
     - modelId: Qwen/Qwen3-8B
       modelName: 通义千问3 8B
-    - modelId: deepseek-ai/DeepSeek-V3
-      modelName: DeepSeek V3
+    - modelId: deepseek-ai/DeepSeek-V4-Flash
+      modelName: DeepSeek-V4-Flash
     - modelId: THUDM/GLM-4-9B-Chat-1M
       modelName: GLM-4 9B
 

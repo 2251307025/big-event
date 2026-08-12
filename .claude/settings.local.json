@@ -15,7 +15,13 @@
       "mcp__filesystem__list_directory",
       "mcp__filesystem__create_directory",
       "Bash(jar:*)",
-      "mcp__filesystem__read_file"
+      "mcp__filesystem__read_file",
+      "Skill(fireworks-tech-graph)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(npm install puppeteer)",
+      "Bash(node:*)"
     ]
   }
 }

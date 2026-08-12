@@ -51,6 +51,7 @@
             </foreach>
             )
         </if>
+        LIMIT 10
     </select>
 
     <select id="listArticleByVector" resultType="com.chj.vo.ArticleVO">
